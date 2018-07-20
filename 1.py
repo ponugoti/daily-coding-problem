@@ -1,5 +1,6 @@
-# Recursive staircase problem
+# May 28, 2018
 
+""" Recursive staircase problem """
 
 def num_ways_with_2p(n, x):
     """The num of ways the steps can be legally taken."""
