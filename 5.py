@@ -1,3 +1,5 @@
+# June 1, 2018
+
 """
 This problem was asked by Stripe.
 
