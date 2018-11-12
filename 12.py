@@ -14,8 +14,10 @@ Hint: Try preprocessing the dictionary into a more efficient data
 structure to speed up queries.
 """
 
-def method():
-    pass
+def autocomplete(query, strings):
+    return [s for s in strings if s.startswith(query)]
 
 if __name__ == '__main__':
-    pass
+    query = 'de'
+    strings = ['dog', 'deer', 'deal']
+    assert autocomplete(query, strings) == ['deer', 'deal']

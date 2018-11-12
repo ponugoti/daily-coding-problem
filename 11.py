@@ -7,8 +7,13 @@ Implement a job scheduler which takes in a function f and
 an integer n, and calls f after n milliseconds.
 """
 
-def method():
+def scheduler(f, n):
+    from time import sleep
+    sleep(n / 1000)
+    f()
+
+def ten_returner():
     pass
 
 if __name__ == '__main__':
-    pass
+    scheduler(ten_returner, 2000)
